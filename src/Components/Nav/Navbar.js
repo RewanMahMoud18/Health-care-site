@@ -1,5 +1,7 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 import "./Nav.css";
 import logo from "../../Assets/images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,9 +17,9 @@ const Navbars = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/" className="active">
+            <Link href="/" className="active">
               Home
-            </Nav.Link>
+            </Link>
 
             <NavDropdown title="Pages" id="pages-dropdown">
               <NavDropdown.Item href="#about-us">About Us</NavDropdown.Item>
@@ -42,18 +44,18 @@ const Navbars = () => {
                 Blog Details
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#contact-us">Contact Us</Nav.Link>
+            <Link href="/Contact">Contact Us</Link>
             <Nav.Link href="#link">
               <FontAwesomeIcon icon={faSearch} />
             </Nav.Link>
-            <Nav.Link>
+            <Link>
               <button>
                 Contact Us
                 <span>
                   <FontAwesomeIcon icon={faChevronRight} />
                 </span>
               </button>
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </div>

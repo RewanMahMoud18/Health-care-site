@@ -1,15 +1,27 @@
 import { Fragment } from "react";
 import "./App.css";
-import Navbars from "./Components/Nav/Navbar";
 import Home from "./pages/Home";
-import Foooter from "./Components/Footer/Footer";
+import {
+  Route,
+  RouterProvider,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from "react-router-dom";
+import Layout from "./Components/Layout/Layout";
+import Contact from "./pages/Contact";
 
+const routes = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Layout />}>
+      <Route index path="/home" element={<Home />} />
+      <Route path="/Contact" element={<Contact />} />
+    </Route>
+  )
+);
 function App() {
   return (
     <Fragment>
-      <Navbars />
-      <Home />
-      <Foooter></Foooter>
+      <RouterProvider router={routes}></RouterProvider>
     </Fragment>
   );
 }
