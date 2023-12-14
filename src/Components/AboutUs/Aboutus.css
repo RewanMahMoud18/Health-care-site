@@ -1,0 +1,18 @@
+.about-head {
+  margin-left: 480px;
+  margin-top: 50px;
+}
+.about-head h5 {
+  color: rgb(247, 92, 36);
+  background-image: url(../../Assets/images/back.png);
+  width: 20%;
+  padding-left: 10px;
+  font-weight: 600;
+}
+.about-head h1 {
+  margin-left: -86px;
+  margin-top: 15px;
+  font-weight: 700;
+  color: var(--main-color);
+  margin-bottom: 40px;
+}

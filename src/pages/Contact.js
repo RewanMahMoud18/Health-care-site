@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Banner from "../Components/Banner/Banner";
 import "./Contact.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -8,6 +8,7 @@ import {
   faLinkedin,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import FormContact from "./FormContact";
 function Contact() {
   return (
     <>
@@ -16,24 +17,7 @@ function Contact() {
         <div className="container bg-white">
           <div className="row">
             <div className="col-md-6 col-lg-6">
-              <form>
-                <input type="text" placeholder="Your Name" />
-
-                <input type="email" placeholder="Email" />
-
-                <input type="number" placeholder="Phone Numbers" />
-
-                <select>
-                  <option>Select Department</option>
-                  <option>One</option>
-                  <option>Two</option>
-                  <option>Three</option>
-                </select>
-
-                <textarea placeholder="Type Message"></textarea>
-
-                <button type="submit">Submit</button>
-              </form>
+              <FormContact></FormContact>
             </div>
             <div className="col-md-6 col-lg-6 general-class">
               <div className="side">

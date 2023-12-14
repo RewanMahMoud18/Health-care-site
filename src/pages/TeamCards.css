@@ -1,0 +1,47 @@
+div.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(189, 189, 249);
+  margin: 10px 0;
+  background-color: #fafafa;
+}
+
+div.card img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 20px 0;
+}
+div.card-title.h5 {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 23px;
+}
+p.card-text {
+  color: rgb(252, 101, 46);
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+ul.our-team-icons {
+  text-align: center;
+  margin-right: 20px;
+}
+ul.our-team-icons li {
+  display: inline-block;
+  padding: 0 6px;
+  background-color: var(--btn-color);
+  margin-right: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+ul.our-team-icons li svg {
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  padding: 5px;
+}
+ul.our-team-icons li:hover {
+  background-color: rgb(240, 130, 90);
+}

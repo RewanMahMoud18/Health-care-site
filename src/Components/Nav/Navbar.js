@@ -17,17 +17,17 @@ const Navbars = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link href="/" className="active">
+            <Link to="/" className="active link-nav">
               Home
             </Link>
 
             <NavDropdown title="Pages" id="pages-dropdown">
-              <NavDropdown.Item href="#about-us">About Us</NavDropdown.Item>
+              <NavDropdown.Item href="/AboutUs">About Us</NavDropdown.Item>
 
-              <NavDropdown.Item href="#our-team">Our Team</NavDropdown.Item>
-              <NavDropdown.Item href="#faq">FAQ's</NavDropdown.Item>
-              <NavDropdown.Item href="#booking">Booking</NavDropdown.Item>
-              <NavDropdown.Item href="#error-404">Error 404</NavDropdown.Item>
+              <NavDropdown.Item href="/our-team">Our Team</NavDropdown.Item>
+
+              <NavDropdown.Item href="/booking">Booking</NavDropdown.Item>
+
               <NavDropdown.Item href="#login-register">
                 Login / Register
               </NavDropdown.Item>
@@ -44,7 +44,9 @@ const Navbars = () => {
                 Blog Details
               </NavDropdown.Item>
             </NavDropdown>
-            <Link href="/Contact">Contact Us</Link>
+            <Link className="link-nav" to="/Contact">
+              Contact Us
+            </Link>
             <Nav.Link href="#link">
               <FontAwesomeIcon icon={faSearch} />
             </Nav.Link>

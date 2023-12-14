@@ -1,0 +1,65 @@
+form.booking-form h2 {
+  text-align: center;
+  color: var(--main-color);
+  font-size: 24px;
+}
+/* form.booking-form {
+  margin-top: 10px;
+} */
+.booking-form {
+  padding: 20px 40px;
+  border: 1px solid rgba(149, 74, 255, 0.895);
+  background-color: #fff;
+  border-radius: 40px;
+  height: 580px;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.booking-form button {
+  width: 80%;
+  margin-top: 5px;
+  margin-left: 22px;
+  height: 50px;
+}
+.space {
+  margin-top: 100px;
+  background-color: rgb(242, 238, 252);
+  border-radius: 40px;
+}
+div.book-img img {
+  width: 650px;
+  height: 590px;
+  margin-top: -80px;
+}
+div.woman-img img {
+  width: 230px;
+  height: 400px;
+  margin-left: 150px;
+  margin-top: 96px;
+  animation: woman 1s infinite alternate;
+  transition: 0.3s ease all;
+}
+@keyframes woman {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-6px);
+  }
+}
+
+div.heart-img img {
+  margin-top: 50px;
+  float: right;
+  margin-right: 150px;
+  animation: heart 1s infinite alternate;
+  transition: 0.3s ease all;
+}
+@keyframes heart {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

@@ -11,6 +11,14 @@ form {
   height: auto;
   max-width: 100%;
 }
+form p {
+  width: 60%;
+  height: 30px;
+  background-color: #f9f9f9;
+  border: 1px solid #c2c2c2;
+  padding: 0px 5px;
+  color: rgb(159, 159, 159);
+}
 form input,
 select {
   border: 1px solid rgb(239, 226, 247);

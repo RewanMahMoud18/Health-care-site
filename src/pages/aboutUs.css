@@ -1,0 +1,122 @@
+ul.about-img {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+ul.about-img li {
+  display: inline-flex;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+ul.about-img li img {
+  border-radius: 60px 0px 60px 60px;
+  width: 240px;
+}
+ul.about-img li img.last-img {
+  border-radius: 60px 60px 0 60px;
+  width: 230px;
+}
+.exp-bx {
+  background-color: #e6e7ff;
+  border-radius: 60px 60px 0 60px;
+  color: #565acf;
+  display: block;
+  font-size: 100px;
+  font-weight: 800;
+  margin-left: 20px;
+  padding: 20px 0 30px;
+  line-height: 80px;
+  height: 290px;
+  text-align: center;
+  width: 220px;
+  border: 1px solid #4e54f0;
+  border-top: 16px solid;
+}
+.exp-bx span {
+  font-size: 35px;
+}
+.about-text h5 {
+  color: rgb(255, 92, 32);
+  text-transform: capitalize;
+  background-image: url(../Assets/images/back.png);
+  width: 20%;
+  padding: 0 10px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.about-text h1 {
+  color: var(--main-color);
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1.5px;
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.about-text p {
+  font-size: 18px;
+  color: #7e7d7d;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.fourdivs {
+  border: 1px solid #caf6fd;
+  margin: 20px 0;
+  height: 65px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.about-icon {
+  background-color: #caf6fd;
+  width: 25%;
+  height: 65px;
+  border-radius: 0 30% 30% 0;
+}
+.about-icon svg {
+  font-size: 30px;
+  color: #103a63b9;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.vibrate-on-hover:hover {
+  animation: vibrate 0.3s ease-in-out infinite; /* Adjust duration and timing function as needed */
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  50% {
+    transform: translateX(2px);
+  }
+  75% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(2px);
+  }
+}
+.about4text h2 {
+  margin-left: 25px;
+  font-size: 23px;
+  color: rgb(52, 52, 126);
+}
+.read-btn {
+  background-color: var(--nav-color);
+  width: 160px;
+  height: 55px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.read-btn a {
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 22px;
+}
