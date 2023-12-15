@@ -7,6 +7,7 @@ import animatedImage3 from "../Assets/images/animatedImage3.png";
 import animatedImage5 from "../Assets/images/animatedImage5.png";
 import AboutUs from "./AboutUs";
 import Booking from "../Components/Booking/Booking";
+import Testimonial from "./Testimonial";
 function Home() {
   return (
     <Fragment>
@@ -32,6 +33,7 @@ function Home() {
       </header>
       <AboutUs />
       <Booking />
+      <Testimonial />
     </Fragment>
   );
 }
