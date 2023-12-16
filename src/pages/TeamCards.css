@@ -7,18 +7,18 @@ div.card {
   background-color: #fafafa;
 }
 
-div.card img {
+div.card img.card-img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
   margin: 20px 0;
 }
-div.card-title.h5 {
+div.teams-title.card-title.h5 {
   color: var(--main-color);
   font-weight: 700;
   font-size: 23px;
 }
-p.card-text {
+p.teams-txt.card-text {
   color: rgb(252, 101, 46);
   font-size: 20px;
   font-weight: 400;

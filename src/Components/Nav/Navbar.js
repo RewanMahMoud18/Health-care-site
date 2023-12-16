@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
-
 import "./Nav.css";
 import logo from "../../Assets/images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,14 +21,16 @@ const Navbars = () => {
             </Link>
 
             <NavDropdown title="Pages" id="pages-dropdown">
-              <NavDropdown.Item href="/AboutUs">About Us</NavDropdown.Item>
+              <NavDropdown.Item href="/AboutUs" className="item-nav">
+                About Us
+              </NavDropdown.Item>
 
-              <NavDropdown.Item href="/our-team">Our Team</NavDropdown.Item>
+              <NavDropdown.Item href="/our-team" className="item-nav">
+                Our Team
+              </NavDropdown.Item>
 
-              <NavDropdown.Item href="/booking">Booking</NavDropdown.Item>
-
-              <NavDropdown.Item href="#login-register">
-                Login / Register
+              <NavDropdown.Item href="/booking" className="item-nav">
+                Booking
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Services" id="services-dropdown">
@@ -50,9 +51,9 @@ const Navbars = () => {
             <Nav.Link href="#link">
               <FontAwesomeIcon icon={faSearch} />
             </Nav.Link>
-            <Link>
+            <Link to="/Contact">
               <button>
-                Contact Us
+                Contact us
                 <span>
                   <FontAwesomeIcon icon={faChevronRight} />
                 </span>

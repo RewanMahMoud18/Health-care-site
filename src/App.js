@@ -20,7 +20,7 @@ const routes = createBrowserRouter(
       <Route path="/Contact" element={<Contact />} />
       <Route path="/AboutUs" element={<AboutUs />} />
       <Route path="/our-team" element={<OurTeam />} />
-      <Route path="/booking" element={<BookingPage />} />
+      <Route path="/booking" element={<BookingPage />} />\
     </Route>
   )
 );

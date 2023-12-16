@@ -20,10 +20,12 @@ function TeamCards() {
       <div className="row">
         <div className="col-md-4 col-lg-4">
           <Card>
-            <img src={d1} />
+            <img className="card-img" src={d1} />
             <Card.Body>
-              <Card.Title>Dr. Addition Smith</Card.Title>
-              <Card.Text>Dentist</Card.Text>
+              <Card.Title className="teams-title">
+                Dr. Addition Smith
+              </Card.Title>
+              <Card.Text className="teams-txt">Dentist</Card.Text>
               <ul className="our-team-icons">
                 <li>
                   <FontAwesomeIcon icon={faTwitter} />
@@ -40,11 +42,13 @@ function TeamCards() {
         </div>
         <div className="col-md-4 col-lg-4">
           <Card>
-            <img src={d2} />
+            <img className="card-img" src={d2} />
             <Card.Body>
-              <Card.Title>Dr. Maria Benjamin</Card.Title>
+              <Card.Title className="teams-title">
+                Dr. Maria Benjamin
+              </Card.Title>
 
-              <Card.Text>Chiropractor</Card.Text>
+              <Card.Text className="teams-txt">Chiropractor</Card.Text>
               <ul className="our-team-icons">
                 <li>
                   <FontAwesomeIcon icon={faTwitter} />
@@ -61,10 +65,12 @@ function TeamCards() {
         </div>
         <div className="col-md-4 col-lg-4">
           <Card>
-            <img src={d3} />
+            <img className="card-img" src={d3} />
             <Card.Body>
-              <Card.Title>Dr. David Benjamin</Card.Title>
-              <Card.Text>Cardiologist</Card.Text>
+              <Card.Title className="teams-title">
+                Dr. David Benjamin
+              </Card.Title>
+              <Card.Text className="teams-txt">Cardiologist</Card.Text>
               <ul className="our-team-icons">
                 <li>
                   <FontAwesomeIcon icon={faTwitter} />
@@ -83,11 +89,13 @@ function TeamCards() {
       <div className="row">
         <div className="col-md-4 col-lg-4">
           <Card>
-            <img src={d4} />
+            <img className="card-img" src={d4} />
             <Card.Body>
-              <Card.Title>Dr. David Benjamin</Card.Title>
+              <Card.Title className="teams-title">
+                Dr. David Benjamin
+              </Card.Title>
 
-              <Card.Text>Chiropractor</Card.Text>
+              <Card.Text className="teams-txt">Chiropractor</Card.Text>
               <ul className="our-team-icons">
                 <li>
                   <FontAwesomeIcon icon={faTwitter} />
@@ -104,10 +112,12 @@ function TeamCards() {
         </div>
         <div className="col-md-4 col-lg-4">
           <Card>
-            <img src={d5} />
+            <img className="card-img" src={d5} />
             <Card.Body>
-              <Card.Title>Dr. Addition Smith</Card.Title>
-              <Card.Text>Dentist</Card.Text>
+              <Card.Title className="teams-title">
+                Dr. Addition Smith
+              </Card.Title>
+              <Card.Text className="teams-txt">Dentist</Card.Text>
               <ul className="our-team-icons">
                 <li>
                   <FontAwesomeIcon icon={faTwitter} />
@@ -124,10 +134,12 @@ function TeamCards() {
         </div>
         <div className="col-md-4 col-lg-4">
           <Card>
-            <img src={d6} />
-            <Card.Body>
-              <Card.Title>Dr. David Benjamin</Card.Title>
-              <Card.Text>Cardiologist</Card.Text>
+            <img className="card-img" src={d6} />
+            <Card.Body className="teams-content">
+              <Card.Title className="teams-title">
+                Dr. David Benjamin
+              </Card.Title>
+              <Card.Text className="teams-txt">Cardiologist</Card.Text>
               <ul className="our-team-icons">
                 <li>
                   <FontAwesomeIcon icon={faTwitter} />

@@ -18,7 +18,12 @@ nav .navbar-nav {
 nav .navbar-brand img {
   margin-right: 80px;
 }
-
+#pages-dropdown {
+  color: var(--nav-color);
+}
+a.item-nav.dropdown-item {
+  background-color: #f9f9f9;
+}
 nav .navbar-nav a.nav-link,
 .link-nav {
   color: var(--nav-color);

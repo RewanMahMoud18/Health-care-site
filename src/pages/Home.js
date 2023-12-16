@@ -2,12 +2,12 @@ import React, { Fragment } from "react";
 import homeImage from "../Assets/images/home-img.png";
 import "../pages/Home.css";
 import animatedImage1 from "../Assets/images/animatedImage1.png";
-// import animatedImage2 from "../Assets/images/animatedImage2.png";
 import animatedImage3 from "../Assets/images/animatedImage3.png";
 import animatedImage5 from "../Assets/images/animatedImage5.png";
 import AboutUs from "./AboutUs";
 import Booking from "../Components/Booking/Booking";
 import Testimonial from "./Testimonial";
+import OurNews from "./OurNews";
 function Home() {
   return (
     <Fragment>
@@ -34,6 +34,7 @@ function Home() {
       <AboutUs />
       <Booking />
       <Testimonial />
+      <OurNews />
     </Fragment>
   );
 }

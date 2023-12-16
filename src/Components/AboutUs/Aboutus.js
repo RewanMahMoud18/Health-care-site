@@ -3,7 +3,7 @@ import Banner from "../Banner/Banner";
 import AboutUs from "../../pages/AboutUs";
 import "./Aboutus.css";
 import TeamCards from "../../pages/TeamCards";
-
+import OurNews from "../../pages/OurNews";
 function Aboutus() {
   return (
     <>
@@ -16,6 +16,7 @@ function Aboutus() {
         </div>
       </div>
       <TeamCards />
+      <OurNews />
     </>
   );
 }
