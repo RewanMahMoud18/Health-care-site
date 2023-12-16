@@ -12,8 +12,8 @@ This project is a Health Care Site built using React and React Hooks. It aims to
 - **Appointment Management:** Schedule, view, and manage health appointments efficiently.
 - **Health Information:** Keep track of personal health records and important information.
 - **Responsive Design:** Ensure a seamless user experience across various devices.
-- **Form Validation
-- **React Router Dom
+- **Form Validation**
+- **React Router Dom**
 
 ## Getting Started
 
